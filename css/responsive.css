@@ -1,0 +1,375 @@
+    @media (min-width:320px) and (max-width:575px) {
+        header .email {
+            margin-left: 130px;
+        }
+        .navbar-toggler:focus {
+            box-shadow: 0 0 0 0rem;
+        }
+        nav ul {
+            background: #99B58F5E;
+            text-align: right;
+            padding-top: 10px;
+        }
+        nav ul li {
+            margin-top: 0;
+            margin-right: 0;
+        }
+        nav ul li a {
+            margin-right: 20px;
+        }
+        /*=========nev rs end===========*/
+        #banner-part .overlay {
+            text-align: center;
+            padding-top: 100px;
+        }
+        #banner-part .overlay h3 {
+            font-size: 25px;
+            padding-bottom: 20px;
+        }
+        #banner-part .overlay h4 {
+            font-size: 35px;
+            padding-bottom: 20px;
+        }
+        #banner-part .overlay p {
+            font-size: 13px;
+            width: auto;
+            padding-right: 0px;
+        }
+        #banner-part .prev {
+            width: 0px;
+            height: 0px;
+            border-radius: 0%;
+            border: 0px solid #fff;
+            background: transparent;
+            text-align: center;
+            line-height: 0px;
+            font-size: 28px;
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 0%;
+            transform: translate(50%, 50%);
+            z-index: 9999;
+        }
+        #banner-part .next {
+            width: 0;
+            height: 0;
+            border-radius: 0;
+            border: none;
+            background: transparent;
+            text-align: center;
+            line-height: 0;
+            font-size: 28px;
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            right: 5%;
+            transform: translate(50%, 50%);
+            z-index: 9999;
+        }
+        #banner-part .slick-dots {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #banner-part .slick-dots li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        #banner-part .slick-dots li button {
+            font-size: 0;
+            width: 10px;
+            height: 10px;
+            background: transparent;
+            border: 1px solid #19F1F0;
+            border-radius: 50%;
+        }
+        #banner-part .slick-dots .slick-active button {
+            background: #fbaa33
+        }
+        #banner-part ol,
+        ul {
+            padding-left: 0rem;
+        }
+        /*==============serevic rs start======*/
+        #servic-part ul li {
+            display: list-item;
+            padding: 10px 15px;
+            margin: 2px 5px;
+        }
+        #servic-part .mixitup-control-active {
+            background: #303934;
+            margin: 10px;
+        }
+        #servic-part .item {
+            width: 100%;
+        }
+        /*===========footer rs start=====*/
+        footer .main-footer {
+            display: block;
+            justify-content: space-between;
+        }
+        footer .item {
+            text-align: center;
+            width: 100%;
+            padding-bottom: 20px;
+        }
+        footer .item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        footer .item p {
+            margin-top: 18px;
+            width: auto;
+            line-height: 22px;
+        }
+        footer .item .icon {
+            text-align: start;
+            margin-left: 65px;
+        }
+        footer .item .manu {
+            display: block;
+        }
+        footer .item .manu ul {
+            margin-right: 0;
+        }
+        footer .item img {
+            width: 100px;
+            height: 85px;
+            border-radius: 50%;
+        }
+        /*============rs end=========*/
+    }
+    
+    @media (min-width:576px) and (max-width:767px) {
+        .navbar-toggler:focus {
+            box-shadow: 0 0 0 0rem;
+        }
+        nav ul {
+            background: #99B58F5E;
+            text-align: right;
+            padding-top: 10px;
+        }
+        nav ul li {
+            margin-top: 0;
+            margin-right: 0;
+        }
+        nav ul li a {
+            margin-right: 20px;
+        }
+        /*=========nev rs end===========*/
+        #banner-part .overlay {
+            text-align: center;
+            padding-top: 100px;
+        }
+        #banner-part .overlay h3 {
+            font-size: 25px;
+            padding-bottom: 20px;
+        }
+        #banner-part .overlay h4 {
+            font-size: 35px;
+            padding-bottom: 20px;
+        }
+        #banner-part .overlay p {
+            font-size: 13px;
+            width: auto;
+            padding-right: 0px;
+        }
+        #banner-part .prev {
+            width: 0px;
+            height: 0px;
+            border-radius: 0%;
+            border: 0px solid #fff;
+            background: transparent;
+            text-align: center;
+            line-height: 0px;
+            font-size: 28px;
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 0%;
+            transform: translate(50%, 50%);
+            z-index: 9999;
+        }
+        #banner-part .next {
+            width: 0;
+            height: 0;
+            border-radius: 0;
+            border: none;
+            background: transparent;
+            text-align: center;
+            line-height: 0;
+            font-size: 28px;
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            right: 5%;
+            transform: translate(50%, 50%);
+            z-index: 9999;
+        }
+        #banner-part .slick-dots {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #banner-part .slick-dots li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        #banner-part .slick-dots li button {
+            font-size: 0;
+            width: 10px;
+            height: 10px;
+            background: transparent;
+            border: 1px solid #19F1F0;
+            border-radius: 50%;
+        }
+        #banner-part .slick-dots .slick-active button {
+            background: #fbaa33
+        }
+        #banner-part ol,
+        ul {
+            padding-left: 0rem;
+        }
+        /*==============serevic rs start======*/
+        #servic-part ul li {
+            display: list-item;
+            padding: 10px 15px;
+            margin: 2px 5px;
+        }
+        #servic-part .mixitup-control-active {
+            background: #303934;
+            margin: 10px;
+        }
+        #servic-part .item {
+            width: 46%;
+        }
+        /*===========footer rs start=====*/
+        footer .main-footer {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        footer .item {
+            width: 48%;
+            margin-top: 20px;
+            padding-bottom: 20px;
+        }
+        /*============rs end=========*/
+    }
+    
+    @media (min-width:768px) and (max-width:991px) {
+        .navbar-toggler:focus {
+            box-shadow: 0 0 0 0rem;
+        }
+        nav ul {
+            background: #99B58F5E;
+            text-align: right;
+            padding-top: 10px;
+        }
+        nav ul li {
+            margin-top: 0;
+            margin-right: 0;
+        }
+        nav ul li a {
+            margin-right: 20px;
+        }
+        /*=========nev rs end===========*/
+        #banner-part .overlay {
+            text-align: center;
+            padding-top: 100px;
+        }
+        #banner-part .overlay h3 {
+            font-size: 25px;
+            padding-bottom: 20px;
+        }
+        #banner-part .overlay h4 {
+            font-size: 35px;
+            padding-bottom: 20px;
+        }
+        #banner-part .overlay p {
+            font-size: 13px;
+            width: auto;
+            padding-right: 0px;
+        }
+        #banner-part .prev {
+            width: 0px;
+            height: 0px;
+            border-radius: 0%;
+            border: 0px solid #fff;
+            background: transparent;
+            text-align: center;
+            line-height: 0px;
+            font-size: 28px;
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 0%;
+            transform: translate(50%, 50%);
+            z-index: 9999;
+        }
+        #banner-part .next {
+            width: 0;
+            height: 0;
+            border-radius: 0;
+            border: none;
+            background: transparent;
+            text-align: center;
+            line-height: 0;
+            font-size: 28px;
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            right: 5%;
+            transform: translate(50%, 50%);
+            z-index: 9999;
+        }
+        #banner-part .slick-dots {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #banner-part .slick-dots li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        #banner-part .slick-dots li button {
+            font-size: 0;
+            width: 10px;
+            height: 10px;
+            background: transparent;
+            border: 1px solid #19F1F0;
+            border-radius: 50%;
+        }
+        #banner-part .slick-dots .slick-active button {
+            background: #fbaa33
+        }
+        #banner-part ol,
+        ul {
+            padding-left: 0rem;
+        }
+        /*==============serevic rs start======*/
+        #servic-part .mixitup-control-active {
+            background: #303934;
+            margin: 10px;
+        }
+        #servic-part .item {
+            width: 46%;
+        }
+        /*===========footer rs start=====*/
+        footer .main-footer {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        footer .item {
+            width: 48%;
+            margin-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+    /*=================the end..=========*/

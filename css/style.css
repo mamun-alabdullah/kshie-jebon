@@ -1,0 +1,600 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h5 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 32px;
+    color: #0a5e35;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+
+/*=======================
+	hader part css start 
+=========================*/
+
+header {
+    background: #519F1F;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header span {
+    display: inline-block;
+    color: #fff;
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+}
+header a {
+    display: inline-block;
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+header a:hover {
+    color: #fff;
+}
+header a span {
+    color: #fff;
+}
+header a i {
+    margin-left: 15px;
+    margin-right: 5px;
+    color: #fff;
+}
+header p {
+    text-align: right;
+    cursor: pointer;
+}
+header p a {
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    transition: .4s;
+}
+header p a:hover {
+    color: #fbaa33;
+}
+header p .activ {
+    color: #fbaa33;
+}
+
+/*=======================
+	hader part css end
+=========================*/
+
+/*=======================
+	nav part css start 
+=========================*/
+nav a img {
+    height: 100px;
+}
+nav ul li {
+    margin-left: 30px;
+    color: red;
+}
+nav ul li a {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    transition: .4s;
+    color: #2d3e50;
+}
+nav ul li a:hover {
+    color: #519F1F;
+}
+nav ul li .active {
+    color: #519F1F;
+}
+
+/*=======================
+	nav part css end 
+=========================*/
+
+/*=======================
+	banner part css start
+=========================*/
+#banner-part {
+    height: 600px;
+}
+#banner-part .banner1 {
+    background: url(../images/banner01.jpg) no-repeat center;
+    background-size: cover;
+    height: 600px;
+}
+#banner-part .banner2 {
+    background: url(../images/banner02.jpg) no-repeat center;
+    background-size: cover;
+    height: 600px;
+}
+#banner-part .banner3 {
+    background: url(../images/banner3.jpg) no-repeat center;
+    background-size: cover;
+    height: 600px;
+}
+#banner-part .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    top: 0;
+    left: 0;
+    padding-top: 110px;
+    padding-bottom: 150px;
+}
+#banner-part .prev {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: transparent;
+    text-align: center;
+    line-height: 60px;
+    font-size: 28px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(50%, -50%);
+    z-index: 9999;
+    transition: .4s;
+}
+#banner-part .prev:hover {
+    background: #519F1F;
+    border: 1px solid #519F1F;
+    color: #555555;
+}
+#banner-part .next {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: transparent;
+    text-align: center;
+    line-height: 60px;
+    font-size: 28px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    transition: .4s;
+}
+#banner-part .next:hover {
+    background: #519F1F;
+    border: 1px solid #519F1F;
+    color: #555555;
+}
+#banner-part .banner1 {
+    color: #fff;
+}
+#banner-part .overlay h3 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    cursor: default;
+}
+#banner-part .overlay h4 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    cursor: default;
+    color: #fff;
+}
+#banner-part .overlay p {
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 70px;
+    width: 542px;
+    cursor: default;
+    color: #fff;
+}
+#banner-part .overlay a span {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 13px 22px;
+    border-radius: 5px;
+    margin-right: 20px;
+    background: #fbaa33;
+    transition: .4s;
+    margin-bottom: 100px;
+}
+#banner-part .overlay a span:hover {
+    background: #2d3e50;
+}
+
+/*=======================
+	banner part css end 
+=========================*/
+
+/*=======================
+	servic  part css start
+=========================*/
+#servic-part {
+    background: #99B58F5E;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#servic-part .main {
+    display: flex;
+    flex-wrap: wrap;
+}
+#servic-part ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 40px;
+}
+#servic-part ul li {
+    display: inline-block;
+    padding: 15px 20px;
+    background: #3a815e;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .4s;
+    border-radius: 5px;
+    margin: 0px 7px;
+}
+#servic-part ul li:hover {
+    color: #a3a8ae;
+}
+#servic-part .mixitup-control-active {
+    background: #303934;
+    margin-right: 15px;
+}
+#servic-part .item {
+    width: 23%;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+}
+#servic-part .item img {
+    width: 100%;
+    height: 100%;
+}
+#servic-part .item .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    opacity: 1;
+    text-align: center;
+}
+#servic-part .item:hover .overlay {
+    width: 100%;
+    opacity: 1;
+}
+#servic-part .item .overlay h3 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #eff4f7;
+    margin-top: 126px;
+}
+#servic-part .item .overlay p {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #eff4f7;
+    margin-top: 10px;
+}
+#servic-part .item .overlay a {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 65px;
+    color: #eff4f7;
+    display: block;
+    transition: .5s;
+}
+#servic-part .item .overlay a:hover {
+    color: red;
+}
+
+/*=============================
+ Service part css end
+================================*/
+#team-part {
+    margin-top: 50px;
+}
+#team-part .item {
+    margin-top: 50px;
+}
+#team-part .item img {
+    width: 100%;
+}
+#team-part .item .img-part {
+    position: relative;
+    background: rgb(116, 62, 62);
+    transition: .4s;
+}
+#team-part .item:hover .img-part {
+    margin-top: -25px;
+}
+#team-part .item .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(226, 62, 56, .5);
+    transition: .4s;
+    border: 5px solid rgb(212, 208, 208);
+    transform: scale();
+    opacity: 0;
+}
+#team-part .item:hover .img-part .overlay {
+    transform: scale(.9);
+    opacity: 1;
+}
+#team-part .item .img-part .overlay .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 70px 0px;
+    text-align: center;
+}
+#team-part .item .img-part .overlay .icon i {
+    font-size: 16px;
+    color: #fffefe;
+    border: 2px solid #fff;
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px 0px 0px;
+    align-items: center;
+    line-height: 30px;
+    transition: .4s;
+}
+#team-part .item .img-part .overlay .icon i:hover {
+    background: #fff;
+    color: #1da0f2;
+    margin-left: 5px;
+}
+#team-part .item .text {
+    text-align: center;
+    width: ;
+    border: 1px solid #fff;
+    border-top: 0;
+    transition: .4s;
+}
+#team-part .item:hover .text {
+    border: 1px solid #dddddd;
+    border-top: 0;
+}
+#team-part .item .text h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+#team-part .item .text h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    margin: 10px;
+}
+#team-part .item .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    width: 230px;
+    color: #686868;
+    margin-top: 15px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    line-height: ;
+    opacity: 0;
+    transition: .4s;
+}
+#team-part .item:hover .text p {
+    opacity: 1;
+}
+
+/*================
+trem-part css end
+==================*/
+
+/*================
+footer-part css start
+==================*/
+footer {
+    background: #353535;
+    width: 100%;
+    margin-top: 40px;
+}
+footer a {
+    color: #dddddd;
+    transition: .4s;
+}
+footer a:hover {
+    color: rgb(19, 94, 70);
+}
+footer .main-footer {
+    display: flex;
+    justify-content: space-between;
+}
+footer .item {
+    width: 24%;
+    margin-top: 20px;
+    padding-bottom: 47px;
+}
+footer .item img {
+    width: 100px;
+    border-radius: 50%;
+}
+footer .item p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 32px;
+    color: #e8e8e8;
+    box-sizing: border-box;
+    width: 216px;
+    line-height: 22px;
+}
+footer .item h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+footer .item .icon {
+    margin-top: 10px;
+    position: relative;
+}
+footer .item .icon i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background: #5bc5f4;
+}
+footer .item .icon .overlay {
+    position: absolute;
+    top: 10px;
+    left: 53px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    width: 100px;
+    line-height: 28px;
+}
+footer .item .manu {
+    display: flex;
+    flex-direction: row;
+}
+footer .item .manu ul {
+    margin-right: 50px;
+}
+footer .item .manu ul li {
+    margin-top: 23px;
+}
+footer .item .manu ul li a {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    transition: .4s;
+}
+footer .item .manu ul li a:hover {
+    color: #5bc5f4;
+}
+footer .item .f-gelary ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .item .f-gelary ul li .con {
+    margin-top: 25px;
+}
+footer .item .f-gelary ul li .con img {
+    border-radius: 0;
+    width: 100%;
+}
+#footer-part {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    background: #555555;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+#footer-part a {
+    color: red;
+}
+
+/*================
+footer-part css end
+==================*/
+
+/*=====================
+ about for poduct css start
+=======================*/
+#product-ditels img {
+    height: 370px;
+}
+#product-ditels .item {
+    margin-top: 15px;
+}
+#product-ditels h3 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(97, 80, 80);
+    margin-top: 50px;
+}
+#product-ditels h1 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(97, 80, 80);
+    margin-top: 10px;
+}
+#product-ditels p {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(97, 80, 80);
+}
+
+/*=====================
+ about for poduct css start
+=======================*/
